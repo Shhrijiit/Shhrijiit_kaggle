@@ -17,26 +17,31 @@ This project allows users to define custom system prompts, choose model provider
 ---
 
 ## 🗂️ Project Structure
-.
+
+```
 ├── frontend.py      # Streamlit UI
 ├── backend.py       # FastAPI server
 ├── ai_agent.py      # AI agent logic
 ├── README.md        # You’re reading it!
+```
 
-📌 Notes
-Make sure your local API is running before using the frontend
+## 📌 Notes
 
-API URL: http://127.0.0.1:9999/chat
+- Make sure your local API is running before using the frontend
+
+- API URL: http://127.0.0.1:9999/chat
 
 
-🙌 Acknowledgements
-LangGraph for ReAct Agents
-FastAPI for API Calls
-Streamlit for UI (Frontend)
-Groq, Google, Gemini for LLM
-LangChain for tools
-Uvicorn for hosting the App
-Python
-Pydantic
-Tavily
-VS Code
+## 🙌 Acknowledgements
+
+- LangGraph for ReAct Agents
+- FastAPI for API Calls
+- Streamlit for UI (Frontend)
+- Groq, Google, Gemini for LLM
+- LangChain for tools
+- Uvicorn for hosting the App
+- Python
+- Pydantic
+- Tavily
+- VS Code
+ 
